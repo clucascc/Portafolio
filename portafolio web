@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio Personal</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#curriculum">Currículum Vitae</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <img src="imagenes/mi-imagen.jpg" alt="Foto personal" class="mi-imagen">
+        <p>Soy Curra Lucas Iván, tengo 18 años. Nací en Río Grande, Tierra del Fuego. Tengo conocimientos básicos en hardware, software y programación.</p>
+    </section>
+
+    <section id="curriculum">
+        <h2>Currículum Vitae</h2>
+        <h3>Educación</h3>
+        <ul>
+            <li><strong>Estudio actualmente en el colegio Dr. Ernesto Guevara</strong></li>
+        </ul>
+
+        <h3>Habilidades</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Capacidad básica en hardware</li>
+            <li>Capacidad básica en software</li>
+        </ul>
+
+        <h3>Enlace a LinkedIn</h3>
+        <p><a href="https://www.linkedin.com/in/tu-perfil" target="_blank">Visita mi perfil en LinkedIn</a></p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <ul>
+            <li>Número: <strong>2964558479</strong></li>
+            <li>Correo electrónico: <strong><a href="mailto:Lucascurra681@gmail.com">Lucascurra681@gmail.com</a></strong></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Curra Lucas Iván. Desarrollador Web.</p>
+    </footer>
+</body>
+</html>
